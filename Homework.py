@@ -73,4 +73,14 @@
 # - A (3,6); B (2,1) -> 5,09
 # - A (7,-5); B (1,-1) -> 7,21
 
+import math
+
+
+x1 = int ( input ('Input X coordinate for point A: '))
+y1 = int (input ('Input Y coordinate for point A: '))
+x2 = int (input ('Input X coordinate for point B: '))
+y2 = int (input ('Input Y coordinate for point B: '))
+
+lenth = math.sqrt ((x2 - x1)**2 + (y2 - y1)**2)
+print (round(lenth,2))
 
