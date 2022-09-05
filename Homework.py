@@ -51,17 +51,26 @@
 # Напишите программу, которая по заданному номеру четверти, 
 # показывает диапазон возможных координат точек в этой четверти (x и y)
 
-a = int (input ('Input number of quarter (1-4): '))
+# a = int (input ('Input number of quarter (1-4): '))
 
-if 1 <= a <= 4:
+# if 1 <= a <= 4:
 
-    if a == 1:
-        print('X > 0 and Y > 0')
-    elif a == 2:
-        print ('X < 0 and Y > 0')
-    elif a == 3:
-        print ('X <0 and Y < 0')
-    elif a == 4:
-        print ('X > 0 and Y < 0')
-else:
-    print ('Please input correct number of quarter')
+#     if a == 1:
+#         print('X > 0 and Y > 0')
+#     elif a == 2:
+#         print ('X < 0 and Y > 0')
+#     elif a == 3:
+#         print ('X <0 and Y < 0')
+#     elif a == 4:
+#         print ('X > 0 and Y < 0')
+# else:
+#     print ('Please input correct number of quarter')
+
+
+# Task #5
+# Напишите программу, которая принимает на вход координаты двух точек и находит расстояние между ними в 2D пространстве.
+# Пример:
+# - A (3,6); B (2,1) -> 5,09
+# - A (7,-5); B (1,-1) -> 7,21
+
+
